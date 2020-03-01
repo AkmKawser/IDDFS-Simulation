@@ -9,4 +9,4 @@ IDDFS combines depth-first searchâ€™s space-efficiency and breadth-first searchâ
 
 IDDFS calls DFS for different depths starting from an initial value. In every call, DFS is restricted from going beyond given depth. So basically we do DFS in a BFS fashion.
 
-<img src = "romania.gif" height=400 width=600>
+<p><img src = "romania.gif" height=400 width=600 align="middle"></p>
