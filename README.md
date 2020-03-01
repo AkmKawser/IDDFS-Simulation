@@ -8,3 +8,5 @@ There are two common ways to traverse a graph, BFS and DFS. Considering a Tree (
 IDDFS combines depth-first search’s space-efficiency and breadth-first search’s fast search (for nodes closer to root).
 
 IDDFS calls DFS for different depths starting from an initial value. In every call, DFS is restricted from going beyond given depth. So basically we do DFS in a BFS fashion.
+
+<img src = "romania.gif" height=400 width=600>
