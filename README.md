@@ -1,4 +1,10 @@
 # Romania IDDFS
+
+<div align="center">
+<img src = "romania.gif" height=400 width=600 align="middle">
+</div>
+
+
 There are two common ways to traverse a graph, BFS and DFS. Considering a Tree (or Graph) of huge height and width, both BFS and DFS are not very efficient due to following reasons.
 
 1. DFS first traverses nodes going through one adjacent of root, then next adjacent. The problem with this approach is, if there is a node close to root, but not in first few subtrees explored by DFS, then DFS reaches that node very late. Also, DFS may not find shortest path to a node (in terms of number of edges).
@@ -10,6 +16,4 @@ IDDFS combines depth-first searchâ€™s space-efficiency and breadth-first searchâ
 IDDFS calls DFS for different depths starting from an initial value. In every call, DFS is restricted from going beyond given depth. So basically we do DFS in a BFS fashion.
 
 
-<div align="center">
-<img src = "romania.gif" height=400 width=600 align="middle">
-</div>
+
